@@ -8,12 +8,23 @@
 <body>
     <div id="content">
       <h1>URBAN POPULATION</h1>
-      <button data-balloon-length="fit" data-balloon="why is this not working" data-balloon-pos="up">
         <ol id="urban_population"></ol>
-        </button>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
     <script src="index.js"></script>
+    <script type="text/html" id='urban_population'>
+       <ul>
+         <% _.each(json, function(item, key, list) { %>
+           <li><%= item.cd %></li>
+           <tooltip>
+             <thing><%= item.yr %></thing>
+             <thing><%= item.cn %></thing>
+           </tooltip>
+         <% });%>
+       </ul>
+     </script>
+     <div id="urban_population"></div>
+     </div>
 </body>
 </html>
