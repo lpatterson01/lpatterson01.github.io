@@ -1,25 +1,29 @@
+<!doctype html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.4.0/balloon.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="balloon.min.css"> -->
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Urban Population</title>
 </head>
 <body>
-  <h1>Poly-Illustration</h1>
-  <h2>Linear Space</h2>
-  <h3>Clifford Patterson</h3>
-  <link href="style.css" rel="stylesheet" type="text/css">
-  <img src="images/landscape.png" alt="landscape" title="head"></div>
-  <div class="paragraphbox"><p>When I think of art, I think of how shapes form together to create a unique cohesive experience. It can be abstract or concrete, depending upon the aesthetic of the artist.</p>
-  </div>
-  <div class="landscapebox">
-   <div class="landscape1"><img src="images/water.png" alt="water" title="water"></div>
-   <div class="landscape2"><img src="images/water1.png" alt="water" title="water"></div>
-   <div class="landscape3"><img src="images/water2.png" alt="water" title="water"></div>
- </div>
-  <img src="images/food.png" alt="food" title="head"></div>
-  <div class="paragraphbox"><p>Every artist has their own style of creating. It is the artist's job to convey the message, while it is the viewer's job to intepret the message.</p>
-  </div>
-  <div class="food1"><img src="images/food1.png" alt="food" title="food"></div>
-  <div class="food2"><img src="images/food2.png" alt="food" title="food"></div>
-  <div class="food3"><img src="images/food3.png" alt="food" title="food"></div>
-  <div class="endline"></div>
+    <div id="content">
+      <h1>URBAN POPULATION</h1>
+      <script type="text/html" id='urban_population'>
+         <ul>
+           <% _.each(json, function(item, key, list) { %>
+             <li class="city">
+               <span data-balloon="<%= item.rnk %> • <%= item.cd %> • <%= item.pop %>" data-balloon-pos="up"><%= item.cn %></span>
+             </li>
+           <% });%>
+         </ul>
+       </script>
+       <div id="target"></div>
+     </div>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
+     <script src="index.js"></script>
 </body>
 </html>
