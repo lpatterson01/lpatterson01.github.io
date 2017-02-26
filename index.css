@@ -26,16 +26,6 @@ ul {
 
 }
 
-.data-balloon {
-  color: white;
-  font-family: "Din 1451 Std", Engschrift;
-  font-size: 18pt;
-  letter-spacing: 3pt;
-  text-transform: uppercase;
-  list-style: none;
-}
-
-
 li {
   float: left;
   padding: 15px 30px 15px 30px;
