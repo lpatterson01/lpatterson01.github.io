@@ -1,0 +1,83 @@
+
+
+#mapid { height: 600px;
+width: 1000px;
+margin: auto;
+display: block;}
+
+div.static{
+  float: left;
+  width: 65%;
+  margin: 20px 0 20px 0;
+  padding: 20px;
+  margin-right: 100px;
+}
+
+div.impact{
+  float: left;
+  width: 65%;
+  margin: 20px 0 20px 0;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+div.sources{
+  float: left;
+  margin: 20px 0 20px 0;
+  padding: 20px;
+  margin-right: 100px;
+}
+
+div.footer{
+  float: left;
+  width: 100%;
+  background: #9FCD5C;
+  padding: 20px;
+  font-family: 'DIN Pro';
+  font-size: 10pt;
+  color: white;
+}
+
+h2 {
+  color: #9FCD5C;
+  font-family: 'DIN Condensed';
+  font-stretch: ultra-condensed;
+  letter-spacing: 1px;
+  font-size: 40pt;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 50px;
+    margin-right: auto;
+}
+
+h1 {
+  color: #414042;
+  font-family: 'DIN Pro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14pt;
+  line-height: 150%;
+  margin-top: -25px;
+}
+
+h3 {
+  color: #D3D3D3;
+  font-family: 'DIN Pro';
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12pt;
+  line-height: 150%;
+}
+
+
+li {
+  color: #CFE2AC;
+  font-family: 'DIN Pro';
+  font-size: 10pt;
+  list-style: none;
+  line-height: 300%;
+}

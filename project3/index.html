@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet' />
+    <title>Vacant Building in Baltimore</title>
+</head>
+<body>
+  <img src="images/rowhome.jpg" alt="Row Home" style="width:100%;height:100%"></img>
+  <div class="static">
+    <h2>VACANT BUILDINGS IN BALTIMORE<h2>
+    <style>span.note { font-size: 100%; color: #9FCD5C;}</style>
+    <style>span.footer { font-size: 100%; color: #58595B;}</style>
+    <h1>A consistent issue in the Baltimore Community is the topic of vacant housing. Between the years of 1993 to 2017, <span class="note">16,671</span> vacant buildings have been recorded in the Baltimore database. Most of the vacant buildings are located in areas of <span class="note">lower life expectancy.</span> It is also difficult for the city to target the vacant buildings because <span class="note">50%</span> belongs to private developers outside of the state. </h1>
+  </div>
+  <img src="buildingicon.jpg" alt="buildingicon" style="width:18%;height:18%;margin-top:60px;" position="static">
+  <hr align="left" width="65%" color="#D3D3D3">
+  <h3 style="margin-left:220px;margin-top:40px;float:left">Map of Vacant Buildings in the Baltimore area</h3>
+  <div id="mapid" style="margin-bottom:0px;"></div>
+  <h3 style="margin-left:220px;"><a href="methodology.html">The Methodology of the Map</a></h3>
+  <div class="impact">
+    <h2>THE IMPACT OF VACANT BUILDINGS</h2>
+    <h1>Multiple consequences arise with the increase of vacant housing: </h1>
+    <ul class="b">
+     <li>There is an increase in assaultive violence <span class="note">(89% experienced aggravated assault, while 64% experienced gun assault)</span></li>
+     <li>There is a higher chance of residents living near the vacant property to fall victims to fires</li>
+     <li>The annual rate for the police to protect citizens from the threat of vacant buildings is <span class="note">$1472</span></li>
+   </ul>
+  </div>
+  <img src="house.jpg" alt="house" style="width:25%;height:25%;margin-top:60px;" position="static">
+  <hr align="left" width="65%" color="#D3D3D3">
+  <div class="static">
+    <h2>ECONOMICAL AND SOCIAL SOLUTIONS</h2>
+    <h1>There are multiple options residents can pursue to improve their city:</h1>
+    <ul class="b">
+     <li>Volunteer and create social awareness with various Baltimore organizations <span class="note">(FLIP, HCHMD, BALTIMORE CITY, VOLUNTEER UNTAPPED)</span></li>
+     <li>Communicate with your <span class="note">district leaders</span>, expressing a need for an expedite solution</li>
+     <li>Contribute to the City of Baltimore in the goal of buying back property from investors</li>
+   </ul>
+  </div>
+  <img src="solutionicon.jpg" alt="solutionicon" style="width:18%;height:18%;margin-top:70px;" position="static">
+  <hr align="left" width="65%" color="#D3D3D3">
+  <div class="sources">
+    <h1>If your are interested in knowing more about vacant buildings, visit the organizations below</h1>
+    <img src="baltimorerising.jpg" alt="HTML tutorial" float="left" style="width:15%;height:15%;margin:30px">
+    <img src="baltimoresun.png" alt="HTML tutorial" style="width:15%;height:15%;margin:30px;margin-bottom:60px">
+    <img src="washingtonpost.png" alt="HTML tutorial" style="width:15%;height:15%;margin:30px">
+    <img src="npr.png" alt="HTML tutorial" style="width:15%;height:15%;margin:30px;margin-bottom:80px;">
+    <img src="city.png" alt="HTML tutorial" style="width:15%;height:15%;margin:30px">
+  </div>
+  <hr align="left" width="65%" color="#D3D3D3">
+  <div class="static">
+  <h1 style="margin-bottom: 50px;">Come support or mission by purchasing merchandise below</h1>
+
+   <a href="https://checkout.chec.io/J7XTl8" data-chec-product-id="J7XTl8" style="font-family:'DIN Pro'; margin:30px;">Gray Shirt</a>
+   <a href="https://checkout.chec.io/JaLR69" data-chec-product-id="JaLR69" style="font-family:'DIN Pro'; margin:30px; v">Building Poster</a>
+   <a href="https://checkout.chec.io/GVuB8j" data-chec-product-id="GVuB8j" style="font-family:'DIN Pro'; margin:30px;">Flip Poster</a>
+   <a href="https://checkout.chec.io/dHLgse" data-chec-product-id="dHLgse" style="font-family:'DIN Pro'; margin:30px;">Flip hat</a>
+   <a href="https://checkout.chec.io/5tucLv" data-chec-product-id="5tucLv" style="font-family:'DIN Pro'; margin:30px;">Flip black shirt</a>
+ </div>
+
+   <div class="footer">
+     ©2017 Baltimore Vacant Building's Dataset. Content is available under this <span class="footer">license.</span>
+   </div>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
+   <script src="index.js"></script>
+   <script src="https://chec-cdn.s3.amazonaws.com/js/embed.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.serializeJSON/2.7.2/jquery.serializejson.js"></script>
+   <script type="text/javascript" src="https://chec-cdn.s3.amazonaws.com/js/commerce.js"></script>
+</body>
+</html>
